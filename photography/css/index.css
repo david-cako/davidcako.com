@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700');
+
+html,body{height:100%;}
+
+body {padding-top: 50px; font-family: 'Open Sans', Arial, sans-serif; font-weight:300;}
+.navbar .navbar-nav > li > a {color:black; font-family: 'Open Sans', Arial, sans-serif; font-size:15px; font-weight:300 ;}
+.navbar .navbar-nav > .active > a {color:white; background-color:#d60000;}
+.navbar .navbar-nav > .active > a:hover {color:white; background-color:#d60000;}
+.navbar-default {border-bottom-color: #d60000; border-bottom-width: 3px}
+
+.btn {font-weight: 300}
+
+.navbar .navbar-nav .open .dropdown-menu {
+  position: absolute;
+  float: left;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border: 1px solid rgba(0, 0, 0, .15);
+  border-width: 0 1px 1px;
+  border-radius: 0 0 4px 4px;
+  -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+          box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+}
+
+
+.navbar-header {
+  float: left;
+}
+
+.navbar-nav {
+  float: left;
+  margin: 0;
+}
+.navbar-nav > li {
+  float: left;
+}
+.navbar-nav > li > a {
+  padding: 15px;
+}
+
+.navbar-nav.navbar-right {
+  float: right;
+}
+
+.about {font-size:20px}
+
+
+.carousel-indicators {position: fixed;}
+.carousel{height:100%;}
+.carousel-inner{height:100%;}
+.contactbutton {margin-left: 20px}
+.navbar .navbar-nav .contactbutton > a, .navbar .navbar-nav .contactbutton > a:focus, .navbar .navbar-nav .contactbutton > a:hover {color:#d60000;}
+.dropdown-menu, .dropdown-menu-right {
+  width: 275px;	
+	
+}
+
+.btn{border:0px !important;}
+.btn:hover,.btn:focus{border:0px !important;}
+.btn-default{color:#fff; background-color:#6b6b6b }
+.btn-default:hover{color:#e1e1e1; background-color:#6b6b6b }
+.google-button{color: #fff; background-color:#DD4B39;}
+.flickr-button{color: #fff; background-color:#2F80E1;}
+.google-button:hover{color: #e1e1e1 !important;}
+.flickr-button:hover{color: #e1e1e1 !important;}
+
+.navbar-nav > li > .dropdown-menu {margin-top: 3px;border-bottom-left-radius: 0px; border-bottom-right-radius: 0px; padding-bottom:0px;}
+.btn-group-vertical {width:100%}
+.rightalignbutton {text-align:right;}
+.btn-group-vertical>.btn:first-child:not(:last-child) {border-top-left-radius: 0px; border-top-right-radius: 0px;}
+.btn-group-vertical>.btn:last-child:not(:first-child) {border-bottom-left-radius: 0px; border-bottom-right-radius: 0px;}
+
+.carousel-inner > .item > img {
+    margin: 0 auto;
+}
+
+
+
+
+

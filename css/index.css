@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700');
+
+body {
+    font-family: sans-serif;
+}
+
+#name-header {
+    font-weight: bold;
+    letter-spacing: -10px;
+    line-height: 70%;
+    margin-bottom: 60px;
+    color: black;
+}
+
+h1 {
+    font-size:150px;
+    -webkit-margin-before: 0;
+}
+
+#main {
+    margin: 50px 0 0 50px;
+}
+
+#links {
+    font-size: 50px;
+    list-style: none;
+    padding: 0 0 0 0;
+    margin-left: 10px;
+}
+
+#links > li > a {
+    color: black;
+    padding-right: 10px;
+    text-decoration: none;
+}
+
+#links > li > a > i, #flickr-logo {
+    margin-right: 10px;
+}
+
+#links > li > a:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+#cako-io > a > i {
+    color: #d60000;
+}
+
+.link-icon {
+    margin-right: 20px;
+}
+
+#email-address-li {
+    margin-top: 25px;
+}
+#flickr-logo {
+    width: 42px;
+    padding: 10px 10px 8px 12px;
+    pointer-events: none;
+}
+.fa-twitter {
+    color: #1da1f2;
+}
