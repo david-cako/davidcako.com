@@ -1,5 +1,5 @@
 body {
-    font-family: sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, "Roboto", sans-serif;
 }
 
 #name-header {
@@ -8,6 +8,7 @@ body {
     line-height: 70%;
     margin-bottom: 60px;
     color: black;
+    font-family: "Helvetica", sans-serif;
 }
 
 h1 {
