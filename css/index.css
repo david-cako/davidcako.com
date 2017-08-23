@@ -1,14 +1,16 @@
 body {
-    font-family: -apple-system, BlinkMacSystemFont, "Roboto", sans-serif;
+    font-family: "Roboto", sans-serif;
 }
-
+html {
+    border: solid 15px #000;
+}
 #name-header {
-    font-weight: bold;
+    font-weight: 100;
     letter-spacing: -10px;
-    line-height: 70%;
-    margin-bottom: 60px;
     color: black;
-    font-family: "Helvetica", sans-serif;
+    font-family: "Lato", -apple-system, BlinkMacSystemFont,  sans-serif;
+    font-size: 180px;
+    margin-top: -40px;
 }
 
 h1 {
@@ -21,16 +23,17 @@ h1 {
 }
 
 #links {
-    font-size: 60px;
+    font-size: 55px;
     letter-spacing: -1px;
     list-style: none;
     padding: 0 0 0 0;
-    margin-left: 10px;
+    margin-top: 10px;
+    font-weight: 300;
 }
 
 #links > li > a {
     color: black;
-    padding-right: 10px;
+    padding-right: 12px;
     text-decoration: none;
 }
 
@@ -56,7 +59,7 @@ h1 {
 }
 #flickr-logo {
     width: 51px;
-    padding: 10px 14px 8px 13px; 
+    padding: 10px 10px 8px 10px; 
     pointer-events: none;
 }
 .fa-twitter {
