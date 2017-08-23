@@ -1,15 +1,21 @@
 body {
     font-family: "Roboto", sans-serif;
+    flex-basis: 100%;
+    border: solid 18px #000;
+    margin: 10px;
+    border-radius: 4px;
+    min-height: 700px;
 }
 html {
-    border: solid 15px #000;
+    display: flex;
+    height: 100%;
 }
 #name-header {
     font-weight: 100;
     letter-spacing: -10px;
     color: black;
     font-family: "Lato", -apple-system, BlinkMacSystemFont,  sans-serif;
-    font-size: 180px;
+    font-size: 190px;
     margin-top: -40px;
 }
 
