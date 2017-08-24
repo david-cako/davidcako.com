@@ -56,6 +56,10 @@ h1 {
     color: #d60000;
 }
 
+#scrobble-shelf {
+    margin-bottom: 20px;
+}
+
 .link-icon {
     margin-right: 20px;
 }
