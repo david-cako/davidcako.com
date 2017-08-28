@@ -3,7 +3,6 @@ body {
     flex-basis: 100%;
     border: solid 18px #000;
     margin: 10px;
-    border-radius: 4px;
     min-height: 700px;
 }
 html {
