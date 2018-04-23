@@ -1,21 +1,54 @@
 body {
     font-family: "Roboto", sans-serif;
     flex-basis: 100%;
-    border: solid 18px #000;
     margin: 10px;
     min-height: 700px;
+    height: 100%;    
 }
 html {
     display: flex;
     height: 100%;
+    background-color: #000;
+    overflow: hidden;
 }
 #name-header {
     font-weight: 100;
-    letter-spacing: -10px;
-    color: black;
+    position: absolute;
+    right: 5vw;
+    color: #fff;
     font-family: "Lato", -apple-system, BlinkMacSystemFont,  sans-serif;
-    font-size: 190px;
+    font-size: 40pt;
+    text-align: right;
     margin-top: -40px;
+    transform: rotate(30deg);
+}
+
+#first-name-header {
+    margin-bottom: -20pt;
+    letter-spacing: 2pt;
+}
+
+#last-name-c, #last-name-a, #last-name-k, #last-name-o {
+    font-size: 100pt;
+    letter-spacing: -15pt;
+    font-weight: 300;
+    font-family: "Roboto", -apple-system, BlinkMacSystemFont,  sans-serif;
+}
+
+#last-name-c {
+    color: #d60000;
+}
+
+#last-name-a {
+    color: #FFE036;
+}
+
+#last-name-k {
+    color: #00BF3B;
+}
+
+#last-name-o {
+    color: #FF17A6;
 }
 
 h1 {
@@ -28,16 +61,15 @@ h1 {
 }
 
 #links {
-    font-size: 55px;
-    letter-spacing: -1px;
+    font-size: 30pt;
+    letter-spacing: -2px;
     list-style: none;
     padding: 0 0 0 0;
-    margin-top: 10px;
-    font-weight: 300;
+    font-weight: 100;
 }
 
 #links > li > a {
-    color: black;
+    color: #fff;
     padding-right: 12px;
     text-decoration: none;
 }
@@ -47,8 +79,8 @@ h1 {
 }
 
 #links > li > a:hover {
-    background-color: #000;
-    color: #fff;
+    background-color: #fff;
+    color: #000;
 }
 
 #cako-io > a > i {
@@ -67,10 +99,44 @@ h1 {
     margin-top: 25px;
 }
 #flickr-logo {
-    width: 51px;
+    width: 31px;
     padding: 10px 10px 8px 10px; 
     pointer-events: none;
 }
 .fa-twitter {
     color: #1da1f2;
+}
+
+#watermark {
+    color: rgba(255,255,255,.7);
+    font-size: 20pt;
+    position: absolute;
+    top: 95%;
+    left: -100px;
+    transform: rotate(12deg);
+    white-space: nowrap;
+    overflow: hidden;   
+    font-family: "Roboto", -apple-system, BlinkMacSystemFont,  sans-serif;
+    font-weight: 100;
+    width: 110vw;
+}
+
+#watermark > div:nth-child(2) {
+    margin-left: -25pt;
+    font-weight: 300;    
+}
+
+#watermark > div:nth-child(3) {
+    margin-left: -50pt;
+    font-weight: 500;    
+}
+
+#watermark > div:nth-child(4) {
+    margin-left: 50pt;
+    font-weight: 700;    
+}
+
+#watermark > div:nth-child(5) {
+    margin-left: 25pt;
+    font-weight: 700;        
 }
