@@ -4,6 +4,8 @@ body {
     margin: 10px;
     min-height: 700px;
     height: 100%;    
+    position: relative;
+    overflow: hidden;
 }
 html {
     display: flex;
@@ -17,20 +19,26 @@ html {
     right: 5vw;
     color: #fff;
     font-family: "Lato", -apple-system, BlinkMacSystemFont,  sans-serif;
-    font-size: 40pt;
+    font-size: 3.2em;
     text-align: right;
     margin-top: -40px;
     transform: rotate(30deg);
 }
 
+@media (max-width: 800px) {
+    #name-header {
+        font-size: 2.2em;
+    }
+}
+
 #first-name-header {
-    margin-bottom: -20pt;
-    letter-spacing: 2pt;
+    margin-bottom: -0.5em;
+    letter-spacing: 0.15em;
 }
 
 #last-name-c, #last-name-a, #last-name-k, #last-name-o {
-    font-size: 100pt;
-    letter-spacing: -15pt;
+    font-size: 2.5em;
+    letter-spacing: -0.125em;
     font-weight: 300;
     font-family: "Roboto", -apple-system, BlinkMacSystemFont,  sans-serif;
 }
@@ -57,11 +65,11 @@ h1 {
 }
 
 #main {
-    margin: 50px 0 0 50px;
+    margin: 50px 0 0 5%;
 }
 
 #links {
-    font-size: 30pt;
+    font-size: 2.5em;
     letter-spacing: -2px;
     list-style: none;
     padding: 0 0 0 0;
@@ -87,10 +95,6 @@ h1 {
     color: #d60000;
 }
 
-#scrobble-shelf {
-    margin-bottom: 20px;
-}
-
 .link-icon {
     margin-right: 20px;
 }
@@ -109,16 +113,20 @@ h1 {
 
 #watermark {
     color: rgba(255,255,255,.7);
-    font-size: 20pt;
     position: absolute;
-    top: 95%;
+    bottom: 0;
     left: -100px;
     transform: rotate(12deg);
     white-space: nowrap;
-    overflow: hidden;   
     font-family: "Roboto", -apple-system, BlinkMacSystemFont,  sans-serif;
     font-weight: 100;
     width: 110vw;
+}
+
+@media (min-width: 1600px) {
+    #watermark{
+        bottom: -10vh;
+    }
 }
 
 #watermark > div:nth-child(2) {
