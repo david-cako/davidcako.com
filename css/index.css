@@ -80,6 +80,7 @@ h1 {
     color: #fff;
     padding-right: 12px;
     text-decoration: none;
+    border-radius: 5px;
 }
 
 #links > li > a > i, #flickr-logo {
