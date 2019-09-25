@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/cako
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://davidcako.com
+    * I am cako (https://keybase.io/cako) on keybase.
+      * I have a public key ASAGw24ZFMcJiEDIfZvXIdyiW1f6JXSx-eNfuOjMd0BXXwo
+
+      To do so, I am signing this object:
+
+      {
+        "body": {
+            "key": {
+                  "eldest_kid": "012025be6309d4a71e34bd450f0ab551f7fcdcebd3c2b37bdab32f6cf663aa6312280a",
+                        "host": "keybase.io",
+                              "kid": "012006c36e1914c7098840c87d9bd721dca25b57fa2574b1f9e35fb8e8cc7740575f0a",
+                                    "uid": "25a2073eca4931da7a1657c65d98a319",
+                                          "username": "cako"
+                                              },
+                                                  "merkle_root": {
+                                                        "ctime": 1569450068,
+                                                              "hash": "17368c284ce228cda283d9a489f84f50f0deb1e021b955a1473a07f2343173d01773c52fc78a2262fae7fe2c10a0fb1596fb2a6c8399dc216fb72be02be475a9",
+                                                                    "hash_meta": "df5dedb446174a3521d07b27590bfd96f1b095937ee52e0f06ec9dc864c7d448",
+                                                                          "seqno": 7746572
+                                                                              },
+                                                                                  "service": {
+                                                                                        "entropy": "00PrTKsJD/XSgCkEnjP8DShQ",
+                                                                                              "hostname": "davidcako.com",
+                                                                                                    "protocol": "https:"
+                                                                                                        },
+                                                                                                            "type": "web_service_binding",
+                                                                                                                "version": 2
+                                                                                                                  },
+                                                                                                                    "client": {
+                                                                                                                        "name": "keybase.io go client",
+                                                                                                                            "version": "4.5.0"
+                                                                                                                              },
+                                                                                                                                "ctime": 1569450082,
+                                                                                                                                  "expire_in": 504576000,
+                                                                                                                                    "prev": "964a03cc0d701c9c5e7bb46e4083fd3d3e7b519b47eec131575fa2c618d37aca",
+                                                                                                                                      "seqno": 11,
+                                                                                                                                        "tag": "signature"
+                                                                                                                                        }
+
+                                                                                                                                        which yields the signature:
+
+                                                                                                                                        hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgBsNuGRTHCYhAyH2b1yHcoltX+iV0sfnjX7jozHdAV18Kp3BheWxvYWTESpcCC8QglkoDzA1wHJxee7RuQIP9PT57UZtH7sExV1+ixhjTesrEID0DHBjRXf6nMSBUIdPLtf1AjezhFKCM31g+3laJ3T4SAgHCo3NpZ8RA4o2cEm6BhW6HammDp9vIgTDa8Ogbm/Pmb/ZKdGNFO9DbPtXKb4GANzPl1bfJUQnvY05lF+cDZbDv4OeV4QpNAqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIAnLmsRuiYOegIWHQHXIyHdXT80tUAkRngiX34+D1Z8yo3RhZ80CAqd2ZXJzaW9uAQ==
+
+                                                                                                                                        And finally, I am proving ownership of this host by posting or
+                                                                                                                                        appending to this document.
+
+                                                                                                                                        View my publicly-auditable identity here: https://keybase.io/cako
+
+                                                                                                                                        ==================================================================
