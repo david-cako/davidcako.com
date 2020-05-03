@@ -10,19 +10,17 @@ body {
 html {
     display: flex;
     height: 100%;
-    background-color: #000;
     overflow: hidden;
 }
 #name-header {
-    font-weight: 100;
+    font-weight: 300;
     position: absolute;
     right: 5vw;
-    color: #fff;
+    color: #105386;
     font-family: "Lato", -apple-system, BlinkMacSystemFont,  sans-serif;
-    font-size: 3.2em;
+    font-size: 4em;
     text-align: right;
     margin-top: -40px;
-    transform: rotate(30deg);
 }
 
 @media (max-width: 800px) {
@@ -32,32 +30,13 @@ html {
 }
 
 #first-name-header {
-    margin-bottom: -0.5em;
-    letter-spacing: 0.15em;
+    margin-bottom: -0.2em;
 }
 
-#last-name-c, #last-name-a, #last-name-k, #last-name-o {
-    font-size: 2.5em;
-    letter-spacing: -0.125em;
-    font-weight: 300;
-    font-family: "Roboto", -apple-system, BlinkMacSystemFont,  sans-serif;
+#last-name-header {
+    font-size: 1.2em;
 }
 
-#last-name-c {
-    color: #d60000;
-}
-
-#last-name-a {
-    color: #FFE036;
-}
-
-#last-name-k {
-    color: #00BF3B;
-}
-
-#last-name-o {
-    color: #FF17A6;
-}
 
 h1 {
     font-size:150px;
@@ -76,8 +55,8 @@ h1 {
     font-weight: 100;
 }
 
-#links > li > a {
-    color: #fff;
+#links a {
+    color: #105386;
     padding-right: 12px;
     text-decoration: none;
     border-radius: 5px;
@@ -88,13 +67,9 @@ h1 {
 }
 
 #links > li > a:hover {
-    background-color: #fff;
-    color: #000;
+    background-color: #DDA40D;
 }
 
-#cako-io > a > i {
-    color: #d60000;
-}
 
 .link-icon {
     margin-right: 20px;
@@ -114,9 +89,14 @@ h1 {
     color: #1da1f2;
 }
 
-.fa-dog {
-    color: #ce9f05;
+#ig > a {
+    color: #DDA40D;
 }
+
+#ig > a:hover {
+    color: #105386;
+}
+
 
 #watermark {
     color: rgba(255,255,255,.7);
