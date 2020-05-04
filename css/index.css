@@ -1,5 +1,5 @@
 body {
-    font-family: "Roboto", sans-serif;
+    font-family: "Raleway", sans-serif;
     flex-basis: 100%;
     margin: 10px;
     min-height: 700px;
@@ -17,7 +17,7 @@ html {
     position: absolute;
     right: 5vw;
     color: #105386;
-    font-family: "Lato", -apple-system, BlinkMacSystemFont,  sans-serif;
+    font-family: "Raleway", -apple-system, BlinkMacSystemFont,  sans-serif;
     font-size: 4em;
     text-align: right;
     margin-top: -40px;
@@ -68,6 +68,7 @@ h1 {
 
 #links > li > a:hover {
     background-color: #DDA40D;
+    color: #fff;
 }
 
 
@@ -89,14 +90,13 @@ h1 {
     color: #1da1f2;
 }
 
-#ig > a {
+#ig i {
     color: #DDA40D;
 }
 
-#ig > a:hover {
-    color: #105386;
+#ig:hover i {
+    color: #fff;
 }
-
 
 #watermark {
     color: rgba(255,255,255,.7);
@@ -105,7 +105,7 @@ h1 {
     left: -100px;
     transform: rotate(12deg);
     white-space: nowrap;
-    font-family: "Roboto", -apple-system, BlinkMacSystemFont,  sans-serif;
+    font-family: "Raleway", -apple-system, BlinkMacSystemFont,  sans-serif;
     font-weight: 100;
     width: 110vw;
 }
