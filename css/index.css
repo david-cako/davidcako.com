@@ -108,7 +108,7 @@ h1 {
     color: #DDA40D;
 }
 
-#ig:hover i {
+#ig a:hover i {
     color: #fff;
 }
 
