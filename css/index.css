@@ -1,10 +1,11 @@
 body {
     font-family: "Raleway", sans-serif;
+    margin: 0 15px;
 }
 #name-header {
     font-weight: 300;
     position: absolute;
-    right: 5vw;
+    right: 20px;
     color: #105386;
     font-family: "Raleway", -apple-system, BlinkMacSystemFont,  sans-serif;
     font-size: 4em;
@@ -33,7 +34,7 @@ h1 {
 }
 
 #main {
-    margin: 50px 0 0 5%;
+    margin: 50px 0 0 0;
 }
 
 #links {
@@ -42,7 +43,13 @@ h1 {
     letter-spacing: -2px;
     list-style: none;
     padding: 0 0 0 0;
-    font-weight: 100;
+    font-weight: 200;
+}
+
+@media (max-width: 800px) {
+    #links {
+        font-size: 2em;
+    }
 }
 
 #links a {
@@ -98,6 +105,18 @@ h1 {
     height: 43.95px;
     pointer-events: none;
     margin: 0 18px -5px 0;
+}
+
+@media (max-width: 800px) {
+    #public-works img {
+        width: 25px;
+        height: 35px;
+        margin: 0 14px -4px 0;
+    }
+    #flickr-logo {
+        width: 24px;
+        height: 11px;
+    }
 }
 
 .fa-twitter {
