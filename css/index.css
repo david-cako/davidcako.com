@@ -1,22 +1,18 @@
 body {
-    font-family: "Raleway", sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont,  sans-serif;
     margin: 0 40px;
 }
 #name-header {
-    font-weight: 300;
-    position: absolute;
-    right: 40px;
+    font-weight: 200;
     color: #105386;
-    font-family: "Raleway", -apple-system, BlinkMacSystemFont,  sans-serif;
     font-size: 4em;
     text-align: right;
-    margin-top: -40px;
+    margin: 0.5em 0 0.8em 0; 
 }
 
 @media (max-width: 800px) {
     #name-header {
         font-size: 2.2em;
-        right: 20px;
     }
     body {
         margin: 0 20px;
@@ -37,17 +33,13 @@ h1 {
     -webkit-margin-before: 0;
 }
 
-#main {
-    margin: 50px 0 0 0;
-}
-
 #links {
     font-size: 2.5em;
     margin: 0;
-    letter-spacing: -2px;
+    letter-spacing: -1px;
     list-style: none;
-    padding: 0 0 0 0;
-    font-weight: 200;
+    padding: 0;
+    font-weight: 100;
 }
 
 @media (max-width: 800px) {
@@ -58,9 +50,11 @@ h1 {
 
 #links a {
     color: #105386;
-    padding-right: 12px;
+    padding-right: 8px;
     text-decoration: none;
     border-radius: 5px;
+    border: 1px solid transparent;
+    line-height: 1.25em;
 }
 
 #links > li > a > i, #flickr-logo {
@@ -68,16 +62,11 @@ h1 {
 }
 
 #links > li > a:hover {
-    background-color: #DDA40D;
-    color: #fff;
-}
-
-#flickr a:hover img {
-    filter: brightness(0) invert(1);
+    box-shadow: 0 0 4px rgba(0,0,0,0.4);
 }
 
 .link-icon {
-    margin-right: 20px;
+    margin-right: 10px;
 }
 
 #email-address-li {
@@ -87,7 +76,7 @@ h1 {
     padding-left: 10px;
     width: 30.5px;
     height: 14px;
-    margin: -10px 18px 8px 0px; 
+    margin: -10px 20px 8px 0px; 
     pointer-events: none;
 }
 
@@ -99,27 +88,24 @@ h1 {
     padding-top: 5px;
 }
 
-#public-works a:hover img {
-    filter: brightness(0) invert(1);
-}
-
 #public-works img {
     padding-left: 10px;
     width: 32px;
     height: 43.95px;
     pointer-events: none;
-    margin: 0 18px -5px 0;
+    margin: 0 17px -3px 0;
 }
 
 @media (max-width: 800px) {
     #public-works img {
         width: 25px;
         height: 35px;
-        margin: 0 14px -4px 0;
+        margin: 0 14px -3px 0;
     }
     #flickr-logo {
         width: 24px;
         height: 11px;
+        margin-right: 16px;
     }
 }
 
@@ -129,10 +115,6 @@ h1 {
 
 #ig i {
     color: #DDA40D;
-}
-
-#ig a:hover i {
-    color: #fff;
 }
 
 #watermark {
