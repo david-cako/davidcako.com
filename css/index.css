@@ -93,10 +93,9 @@ h1 {
 
 #public-works img {
     padding-left: 10px;
-    width: 32px;
-    height: 43.95px;
+    width: 31px;
     pointer-events: none;
-    margin: 0 17px -3px 0;
+    margin: 0 18px -3px 0;
 }
 
 @media (max-width: 800px) {
