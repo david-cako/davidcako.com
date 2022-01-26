@@ -49,12 +49,14 @@ h1 {
 }
 
 #links a {
+    display: inline-block;
     color: #105386;
     padding-right: 8px;
     text-decoration: none;
     border-radius: 5px;
     border: 1px solid transparent;
-    line-height: 1.25em;
+    line-height: 1.3em;
+    transition: transform ease-in-out 0.1s;
 }
 
 #links > li > a > i, #flickr-logo {
@@ -62,7 +64,8 @@ h1 {
 }
 
 #links > li > a:hover {
-    box-shadow: 0 0 5px rgba(0,0,0,0.4);
+    box-shadow: 0 0 4px rgba(0,0,0,0.4);
+    transform: scale(1.04);
 }
 
 .link-icon {
