@@ -9,21 +9,23 @@
 */
 
 body {
-    font-family: -apple-system, BlinkMacSystemFont,  sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
     margin: 0 40px;
 }
+
 #name-header {
     font-weight: 200;
-    color: #105386;
+    color: #36387F;
     font-size: 4em;
     text-align: right;
-    margin: 0.5em 0 0.8em 0; 
+    margin: 0.5em 0 0.8em 0;
 }
 
 @media (max-width: 800px) {
     #name-header {
         font-size: 2.2em;
     }
+
     body {
         margin: 0 20px;
     }
@@ -39,7 +41,7 @@ body {
 
 
 h1 {
-    font-size:150px;
+    font-size: 150px;
     -webkit-margin-before: 0;
 }
 
@@ -64,7 +66,7 @@ h1 {
 #links a {
     display: flex;
     align-items: center;
-    color: #105386;
+    color: #36387F;
     padding-right: 8px;
     text-decoration: none;
     border-radius: 5px;
@@ -73,12 +75,15 @@ h1 {
     transition: transform ease-in-out 0.1s;
 }
 
-#links > li > a > i, #flickr-logo {
-    margin-right: 10px;
+#links i {
+    margin-right: 0.25em;
+    margin-left: 0.08em;
+    width: 1.25em;
+    text-align: center;
 }
 
-#links > li > a:hover {
-    box-shadow: 0 1px 4px rgba(0,0,0,0.4);
+#links a:hover {
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
     transform: scale(1.04);
 }
 
@@ -92,44 +97,40 @@ h1 {
 
 #cako-logo {
     width: 40px;
-    padding-left: 6px;
-    margin-right: 12px;
+    padding-left: 0.2em;
+    margin-right: 0.38em;
 }
 
 #email-address-li {
     margin-top: 25px;
 }
+
 #flickr-logo {
-    padding-left: 10px;
+    padding-left: 12px;
     width: 30.5px;
-    height: 14px;
-    margin-right: 20px; 
+    margin-top: 0.03em;
+    margin-right: 0.5em;
     pointer-events: none;
 }
 
 #public-works img {
-    padding-left: 10px;
-    width: 31px;
+    padding-left: 0.3em;
+    width: 32px;
     pointer-events: none;
-    margin-right: 18px;
+    margin-right: 0.46em;
 }
 
 @media (max-width: 800px) {
     #cako-logo {
         width: 32px;
-        padding-left: 5px;
-        margin-right: 11px;
     }
+
     #public-works img {
-        width: 25px;
-        height: 35px;
-        margin-right: 16px;
-        padding-left: 8px;
+        width: 26px;
     }
+
     #flickr-logo {
-        width: 24px;
-        height: 11px;
-        margin-right: 16px;
+        width: 21px;
     }
 }
 
@@ -139,6 +140,9 @@ h1 {
 
 #ig i {
     color: #DDA40D;
+    font-size: 0.9em;
+    margin-right: 0.35em;
+    margin-left: 0.16em;
 }
 
 /*
