@@ -67,7 +67,7 @@ h1 {
     display: flex;
     align-items: center;
     color: #36387F;
-    padding-right: 8px;
+    padding-right: 0.2em;
     text-decoration: none;
     border-radius: 5px;
     border: 1px solid transparent;
