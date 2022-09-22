@@ -115,7 +115,7 @@ h1 {
     margin-left: 0.34em;
     width: 0.72em;
     pointer-events: none;
-    margin-right: 0.51em;
+    margin-right: 0.52em;
 }
 
 @media (max-width: 800px) {
@@ -136,6 +136,12 @@ h1 {
     font-size: 1.1em;
     margin-left: 0.02em;
     margin-right: 0.17em;
+}
+
+#links i.fa-envelope {
+    width: 1em;
+    margin-left: .19em;
+    margin-right: .4em;
 }
 
 .fa-twitter {
