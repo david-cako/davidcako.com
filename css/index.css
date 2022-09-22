@@ -67,7 +67,7 @@ h1 {
     display: flex;
     align-items: center;
     color: #36387F;
-    padding-right: 0.2em;
+    padding-right: 0.29em;
     text-decoration: none;
     border-radius: 8px;
     border: 1px solid transparent;
@@ -94,9 +94,9 @@ h1 {
 }
 
 #cako-logo {
-    width: 40px;
-    padding-left: 0.2em;
-    margin-right: 0.38em;
+    width: 0.9em;
+    margin-left: 0.25em;
+    margin-right: 0.42em;
 }
 
 #email-address-li {
@@ -112,10 +112,10 @@ h1 {
 }
 
 #public-works img {
-    padding-left: 0.3em;
-    width: 32px;
+    margin-left: 0.34em;
+    width: 0.72em;
     pointer-events: none;
-    margin-right: 0.48em;
+    margin-right: 0.51em;
 }
 
 @media (max-width: 800px) {
