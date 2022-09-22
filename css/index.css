@@ -27,7 +27,7 @@ body {
     }
 
     body {
-        margin: 0 20px;
+        margin: 0 15px;
     }
 }
 
@@ -47,7 +47,7 @@ h1 {
 
 #links {
     font-size: 2.5em;
-    margin: 0;
+    margin: 12vh 0 0;
     letter-spacing: -1px;
     list-style: none;
     padding: 0;
@@ -90,7 +90,7 @@ h1 {
 }
 
 #cako-io {
-    margin-bottom: 25px;
+    margin-bottom: 0.6em;
 }
 
 #cako-logo {
@@ -100,7 +100,7 @@ h1 {
 }
 
 #email-address-li {
-    margin-top: 25px;
+    margin-top: 0.6em;
 }
 
 #flickr-logo {
