@@ -67,7 +67,7 @@ h1 {
     display: flex;
     align-items: center;
     color: #36387F;
-    padding-right: 0.29em;
+    padding-right: 0.26em;
     text-decoration: none;
     border-radius: 8px;
     border: 1px solid transparent;
@@ -83,6 +83,10 @@ h1 {
 #links a:hover {
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
     transform: scale(1.04);
+}
+
+#links a.email-address {
+    padding-right: 0.2em;
 }
 
 .link-icon {
@@ -139,9 +143,9 @@ h1 {
 }
 
 #links i.fa-envelope {
-    width: 1em;
-    margin-left: .19em;
-    margin-right: .4em;
+    font-size: 0.9em;
+    margin-left: .15em;
+    margin-right: .37em;
 }
 
 .fa-twitter {
