@@ -69,7 +69,7 @@ h1 {
     color: #36387F;
     padding-right: 0.2em;
     text-decoration: none;
-    border-radius: 5px;
+    border-radius: 8px;
     border: 1px solid transparent;
     line-height: 1.3em;
     transition: transform ease-in-out 0.1s;
@@ -115,7 +115,7 @@ h1 {
     padding-left: 0.3em;
     width: 32px;
     pointer-events: none;
-    margin-right: 0.46em;
+    margin-right: 0.48em;
 }
 
 @media (max-width: 800px) {
@@ -130,6 +130,12 @@ h1 {
     #flickr-logo {
         width: 21px;
     }
+}
+
+#links i.fa-file-alt {
+    font-size: 1.1em;
+    margin-left: 0.02em;
+    margin-right: 0.17em;
 }
 
 .fa-twitter {
