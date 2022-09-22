@@ -47,7 +47,7 @@ h1 {
 
 #links {
     font-size: 2.5em;
-    margin: 4vh 0 0;
+    margin: 7vh 0 0;
     letter-spacing: -1px;
     list-style: none;
     padding: 0;
@@ -134,8 +134,8 @@ h1 {
 
 #links i.fa-file-alt {
     font-size: 1.1em;
-    margin-left: 0.03em;
-    margin-right: 0.16em;
+    margin-left: 0.02em;
+    margin-right: 0.17em;
 }
 
 .fa-twitter {
