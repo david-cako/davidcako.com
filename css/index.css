@@ -99,7 +99,7 @@ h1 {
 
 #cako-logo {
     width: 0.9em;
-    margin-left: 0.25em;
+    margin-left: 0.26em;
     margin-right: 0.42em;
 }
 
@@ -116,10 +116,10 @@ h1 {
 }
 
 #public-works img {
-    margin-left: 0.34em;
+    margin-left: 0.35em;
     width: 0.72em;
     pointer-events: none;
-    margin-right: 0.52em;
+    margin-right: 0.5em;
 }
 
 @media (max-width: 800px) {
@@ -144,6 +144,7 @@ h1 {
 
 #links i.fa-envelope {
     font-size: 0.9em;
+    margin-top: .14em;
     margin-left: .15em;
     margin-right: .365em;
 }
