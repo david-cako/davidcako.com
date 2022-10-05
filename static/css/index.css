@@ -109,20 +109,6 @@ h1 {
     margin-right: 0.5em;
 }
 
-@media (max-width: 800px) {
-    #cako-logo {
-        width: 32px;
-    }
-
-    #public-works img {
-        width: 26px;
-    }
-
-    #flickr-logo {
-        width: 21px;
-    }
-}
-
 #links i.fa-file-alt {
     font-size: 1.1em;
     margin-left: 0.02em;
