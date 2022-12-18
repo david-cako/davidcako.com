@@ -9,7 +9,7 @@ body {
     font-size: 4em;
     text-align: right;
     margin: 0.5em 0.1em 0.8em 0;
-    line-height: 1.02em;
+    line-height: 1em;
 }
 
 @media (max-width: 800px) {
@@ -23,7 +23,7 @@ body {
 }
 
 #last-name-header {
-    font-size: 1.13em;
+    font-size: 1.125em;
 }
 
 
