@@ -69,7 +69,7 @@ h1 {
 
 #links a:hover {
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
-    transform: scale(1.04);
+    transform: scale(1.05);
 }
 
 #links a.email-address {
