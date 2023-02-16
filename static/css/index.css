@@ -54,7 +54,7 @@ h1 {
     display: flex;
     align-items: center;
     color: #000;
-    padding-right: 0.26em;
+    padding-right: 0.35em;
     text-decoration: none;
     border-radius: 8px;
     border: 1px solid transparent;
@@ -69,7 +69,7 @@ h1 {
 
 #links a:hover {
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
-    transform: scale(1.05);
+    transform: scale(1.06);
 }
 
 #links a.email-address {
