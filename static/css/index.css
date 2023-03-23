@@ -54,7 +54,7 @@ h1 {
     display: flex;
     align-items: center;
     color: #000;
-    padding: 0.04em 0.2em;
+    padding: 0.04em 0.16em 0.04em 0.2em;
     margin-bottom: 0.1em;
     text-decoration: none;
     border-radius: 8px;
@@ -79,12 +79,9 @@ h1 {
     margin-right: 0.4em;
 }
 
-#links #scrobble-shelf {
-    margin-bottom: 0.03em
-}
-
 #links #scrobble-shelf a {
-    padding: 0 0.2em 0.07em;
+    padding: 0.04em 0.16em 0.1em 0.2em;
+    margin-bottom: 0.04em;
 }
 
 #links #scrobble-shelf .icon {
@@ -96,7 +93,7 @@ h1 {
 }
 
 #links #email-address a {
-    padding: 0.04em 0.15em;
+    padding: 0.04em 0.14em;
 }
 
 #links #email-address .icon {
