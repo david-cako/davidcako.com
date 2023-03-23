@@ -67,9 +67,10 @@ h1 {
     margin-left: 0.08em;
 }
 
-#links a:hover {
+#links a:hover, #links a:focus {
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
     transform: scale(1.06);
+    outline: none;
 }
 
 #links a.email-address {
