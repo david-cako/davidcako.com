@@ -54,84 +54,55 @@ h1 {
     display: flex;
     align-items: center;
     color: #000;
-    padding-right: 0.3em;
+    padding: 0.04em 0.2em;
+    margin-bottom: 0.1em;
     text-decoration: none;
     border-radius: 8px;
     border: 1px solid transparent;
-    line-height: 1.3em;
+    line-height: 1em;
     transition: transform ease-in-out 0.1s;
 }
 
-#links i {
-    margin-right: 0.25em;
-    margin-left: 0.08em;
-}
-
-#links a:hover, #links a:focus {
+#links a:hover,
+#links a:focus {
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
     transform: scale(1.06);
     outline: none;
-}
-
-#links a.email-address {
-    padding-right: 0.2em;
-}
-
-.link-icon {
-    margin-right: 10px;
 }
 
 #cako-io {
     margin-bottom: 0.6em;
 }
 
-#cako-logo {
-    width: 0.9em;
-    margin-left: 0.26em;
-    margin-right: 0.42em;
+#links .icon {
+    width: 0.6em;
+    margin-right: 0.4em;
 }
 
-#email-address-li {
+#links #scrobble-shelf {
+    margin-bottom: 0.03em
+}
+
+#links #scrobble-shelf a {
+    padding: 0 0.2em 0.07em;
+}
+
+#links #scrobble-shelf .icon {
+    margin-top: 0.04em;
+}
+
+#email-address {
     margin-top: 0.6em;
 }
 
-#flickr-logo {
-    padding-left: 12px;
-    width: 30.5px;
-    margin-top: 0.03em;
-    margin-right: 0.5em;
-    pointer-events: none;
+#links #email-address a {
+    padding: 0.04em 0.15em;
 }
 
-#public-works img {
-    margin-left: 0.35em;
-    width: 0.72em;
-    pointer-events: none;
-    margin-right: 0.5em;
-}
-
-#links i.fa-file-alt {
-    font-size: 1.1em;
-    margin-left: 0.02em;
-    margin-right: 0.17em;
-}
-
-#links i.fa-envelope {
-    font-size: 0.9em;
-    margin-top: .14em;
-    margin-left: .15em;
-    margin-right: .365em;
-}
-
-.fa-twitter {
-    color: #1da1f2;
-}
-
-#ig i {
-    color: #DDA40D;
-    font-size: 0.9em;
-    margin-right: 0.35em;
-    margin-left: 0.16em;
+#links #email-address .icon {
+    width: 0.75em;
+    margin-top: 0.11em;
+    margin-right: 0.28em;
 }
 
 /*
