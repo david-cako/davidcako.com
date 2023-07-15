@@ -1,6 +1,7 @@
 Helvetica*
 analytics/
-scrobble-shelf/
+scrobble-shelf/cover_art/
+scrobble-shelf/scrobble_shelf.json
 works/
 ocelot/
 static/fonts
