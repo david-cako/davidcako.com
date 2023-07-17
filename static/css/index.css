@@ -79,6 +79,12 @@ h1 {
     margin-right: 0.4em;
 }
 
+#links #cako-io .icon {
+    width: 0.66em;
+    margin-right: 0.37em;
+    margin-left: -0.03em;
+}
+
 #links #scrobble-shelf a {
     padding: 0.04em 0.16em 0.1em 0.2em;
     margin-bottom: 0.04em;
