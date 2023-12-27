@@ -75,14 +75,12 @@ h1 {
 }
 
 #links .icon {
-    width: 0.6em;
+    width: 0.66em;
     margin-right: 0.4em;
 }
 
 #links #cako-io .icon {
     width: 0.66em;
-    margin-right: 0.37em;
-    margin-left: -0.03em;
 }
 
 #links #scrobble-shelf a {
@@ -103,9 +101,9 @@ h1 {
 }
 
 #links #email-address .icon {
-    width: 0.75em;
+    width: 0.8em;
     margin-top: 0.11em;
-    margin-right: 0.28em;
+    margin-right: 0.3em;
 }
 
 /*
