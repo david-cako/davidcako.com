@@ -70,17 +70,13 @@ h1 {
     outline: none;
 }
 
-#cako-io {
-    margin-bottom: 0.6em;
+#public-works {
+    margin-top: 0.6em;
 }
 
 #links .icon {
     width: 0.66em;
     margin-right: 0.4em;
-}
-
-#links #cako-io .icon {
-    width: 0.66em;
 }
 
 #links #scrobble-shelf a {

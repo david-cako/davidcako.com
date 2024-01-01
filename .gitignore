@@ -7,3 +7,4 @@ ocelot/
 static/fonts
 static/*.mp3
 google*.html
+.DS_Store
