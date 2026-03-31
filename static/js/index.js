@@ -1,10 +1,16 @@
+function encodeCharacterEntities(str) {
+    return str.replace(/[\u00A0-\u9999<>\&]/g, i => '&#' + i.charCodeAt(0) + ';');
+}
+
 function insertEmailAddress() {
     var email = document.getElementById("email-address").firstElementChild;
-    var u = "dc"
-    var d = "cako.io"
-    var a = u + "@" + d
-    
-    email.outerHTML = email.outerHTML.replace(/name@domain.io/g, a);
+    var u = "dc";
+    var d = "cako.io";
+    var a = u + "@" + d;
+
+    const encoded = encodeCharacterEntities(a);
+
+    email.outerHTML = email.outerHTML.replace(/name@domain.io/g, encoded);
 }
 
 function navigateLinks(event) {
@@ -24,7 +30,7 @@ function navigateLinks(event) {
             links[0].focus();
         }
     } else if (event.key === "Enter") {
-        if (focusedLink){
+        if (focusedLink) {
             focusedLink.click();
         }
     }
