@@ -75,6 +75,7 @@ h1 {
 #links .icon {
     width: 0.66em;
     margin-right: 0.4em;
+    pointer-events: none;
 }
 
 #links #scrobble-shelf a {
